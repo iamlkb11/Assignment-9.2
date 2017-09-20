@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Table</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Bootstrap related script files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+	   <!--Bootstrap container for default padding etc. -->
+	   <div class="container">
+	       <h1>Student File</h1><br>
+		  <!-- Div to make table responsive -->
+		  <div class="table-responsive">
+            <!--Using bordered table -->
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="row">
+                    <!--Colspan 4 as required for medium devices -->
+                    <th class="col-md-4">Row</th>
+                    <th class="col-md-4">Firstname</th>
+                    <th class="col-md-4">Lastname</th>
+                    <th class="col-md-4">Email</th>
+                    <th class="col-md-4">Biography</th>
+                    </tr>
+    			</thead>
+    			
+                <tbody>
+      				<tr class="row">
+        		 	<td class="col-md-4">1</td>
+                    <td class="col-md-4">John</td>
+        			<td class="col-md-4">Carter</td>
+        			<td class="col-md-4">johncarter@mail.com</td>
+                    <td class="col-md-4">I'm John Carter.</td>
+        			</tr>
+        			<tr class="row">
+        		 	<td class="col-md-4">2</td>
+                    <td class="col-md-4">Peter</td>
+        			<td class="col-md-4">Parker</td>
+        			<td class="col-md-4">peterparker@mail.com</td>
+                    <td class="col-md-4">I'm Peter Parker.</td>
+        			</tr>
+        			<tr class="row">
+                    <td class="col-md-4">3</td>
+        		 	<td class="col-md-4s">John</td>
+        			<td class="col-md-4">Rambo</td>
+        			<td class="col-md-4">johnrambo@mail.com</td>
+                    <td class="col-md-4">I'm John Rambo.</td>
+        			</tr>
+    			</tbody>
+  			
+            </table>
+		  </div>
+	   </div>
+
+    </body>
+</html>
